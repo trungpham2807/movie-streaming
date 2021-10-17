@@ -1,0 +1,233 @@
+*{
+    /* box-sizing: border-box; */
+}
+#main{
+background-color: #212529;
+color:aliceblue;
+}
+/* ------------------ */
+
+header{
+ height: 80px;
+ width: 100%; 
+ border: 1px solid black;
+ /* position: fixed;  */
+ background-color: #011627;
+ margin-bottom: 5px;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+header .link{
+display: flex;
+align-items: center;
+font-size: 25px;
+color: black;
+}
+header .link a{
+    margin-right: 30px;
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+
+}
+header #search-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+header #search-box:focus{
+    outline:0;
+    background-color: black;
+}
+#search-box input{
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* ------------------ */
+/* 
+.slider{
+    height:400px;
+    border: 1px solid black;
+} */
+/* ------------------ */
+
+.content{
+width: 100vh;
+}
+
+.content .content-row{
+    height: 300px;
+      
+}
+
+.content .content-trending{
+    margin: 10px;
+    margin-bottom: 250px;
+    border-radius: 10px;
+
+
+
+}
+#card-trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+     /* flex-wrap: wrap; */
+}
+.content .content-upcoming{
+    margin: 10px;
+}
+#card-trending img{
+    width: 200px;
+    height: 300px;
+}
+#card-upcoming{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+}
+#card-upcoming img{
+    width: 200px;
+    height: 300px;
+}
+
+.overview button {
+    text-decoration: none;
+    border: 3px solid #F9C80E;
+    color: transparent;
+    padding: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .overview button:before {
+    content: "Watch now";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9C80E;
+    background: rgb(34, 34, 34);
+    font-size: 10px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+  }
+  .overview button:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  .overview button:after {
+    content: "Watch now";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9C80E;
+    background: rgb(34, 34, 34);
+    font-size: 10px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+  }
+ .overview button:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  }
+  
+
+/* ------------------ */
+
+footer{
+    height: 250px;
+    border: 1px solid black;
+    background-color: black;
+    color:cornsilk;
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+
+footer .row1{
+    display: flex;
+    justify-content: space-between;
+}
+footer .row11{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+footer .heading{
+    color: #919496;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+footer img{
+    max-width: 95vw;
+    height: auto;
+}
+/* footer .col1{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+footer li{
+    list-style-type: none;
+}
+
+.footer-right img{
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+footer .row2{
+    display: flex;
+    justify-content: right;
+    color: #919496;
+    font-size: 15px;
+}
+
+footer #lmao a{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color:honeydew;
+}
+/* ------------------ */
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+       <!-- CSS only -->
+        <title>Movie-Streaming</title>
+    </head>
+    <body>
+        <div id="main">
+            <!-- Header -->
+            <header>
+                <!-- Menu -->
+                <div class="menu">
+                    <!-- Logo -->
+                    <img src="images/logo.png.png" width = "100px" height="80px" alt="logo">
+                    <!-- sidebar -->
+                    <div class="sidebar">
+                        
+
+                    </div>
+                    <!-- menu link -->
+                    <div class="link">
+                        <a href="#">Home</a>
+                        <a href="#">Upcoming</a>
+                        <a href="#">Trending</a>
+                    </div>
+                <!-- Search Box -->
+                    <div id="search-box">
+                        <form>
+                            <input type="text" placeholder="Search..." id="search">
+                        </form>
+                    </div>
+                    <!-- login -->
+                    
+                </div>
+            </header>
+            <!-- ------This -Slider use boostrap 5.------ -->
+            <div class="slider">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slider_1.jpg" class="d-block w-100" height = "600px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>One Piece</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slider_2.jpg" class="d-block w-100" height = "600px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Spiderman</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slider_3.jpg" class="d-block w-100" height = "600px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Breaking Bad</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!-- ----Content---- -->
+            <div class="content">
+                <div class="content-row content-trending">
+                    <div id="card-upcoming">
+                        <h1>Upcoming Movie</h1>
+                    </div>
+                </div>
+                <div class="content-row content-upcoming">
+                    <div id="card-trending">
+                        <h1>Trending Movie</h1> 
+                    </div>
+                </div>
+            </div>
+    <!-- ------------------------- -->
+
+    <!-- -----------------Footer------------------- -->
+
+    <footer>
+        <div class="container">
+          <div class="row1">
+            <div class="row11">
+              <div>
+                <img src="images/logo.png.png" width="130" />
+              </div>
+              <div class="col1">
+                <div class="heading">Company</div> 
+                    <a href="#">About</a><br>
+                    <a href="#">Adress</a><br>
+                    <a href="#">Contact</a><br>             
+              </div>
+              <div>
+                <div class="heading col">Useful Links</div>
+                <a href="#">Home</a><br>
+                <a href="#">Trending</a><br>
+                <a href="#">Upcoming</a><br>
+                    </div>
+            </div>
+            <div class="footer-right">
+              <a href="https://www.instagram.com/">
+                <img src="images/ig.png" width="50" />
+              </a>
+              <a href="https://www.facebook.com/">
+                <img src="images/fb.png" width="50" />
+              </a>
+              <a href="https://twitter.com/?lang=vi">
+                <img src="images/twitter.png" width="50" />
+              </a>
+            </div>
+          </div>
+          <div class="row2">VN<img src="images/vietnam.png" width="20" /></div>
+          <div class="row3">
+            <div id="lmao">
+              <a href="#">Legal</a>
+              <a href="#">Privacy Center</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Cookies</a>
+              <a href="#">About Ads</a>
+            </div>
+            <div class="row2">© 2021 Movie-Streaming</div>
+          </div>
+        </div>
+      </footer>
+        </div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+    </body>
+</html>
