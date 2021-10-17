@@ -90,6 +90,10 @@ width: 100vh;
 #card-trending img{
     width: 200px;
     height: 300px;
+    transition: transform .2s;
+}
+#card-trending img:hover{
+    transform: scale(1.5);
 }
 #card-upcoming{
     display: flex;
@@ -102,6 +106,10 @@ width: 100vh;
 #card-upcoming img{
     width: 200px;
     height: 300px;
+    transition: transform .2s;
+}
+#card-upcoming img:hover{
+    transform: scale(1.5);
 }
 
 .overview button {
